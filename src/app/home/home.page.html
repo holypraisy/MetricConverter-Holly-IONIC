@@ -34,12 +34,12 @@
         (ionChange)="getMetricIndex1($event)"
       >
         <ion-select-option 
-          *ngFor='let metric of (checkPrincipalAmount == "Length" ? lengths : checkPrincipalAmount == "Mass" ? mass : checkPrincipalAmount == "Time" ? time : checkPrincipalAmount == "Arus listrik" ? electric_current : temperature)'
-          [value]="metric"
-        > 
+        *ngFor='let metric of (checkPrincipalAmount == "Panjang" ? lengths : checkPrincipalAmount == "Massa" ? mass : checkPrincipalAmount == "Waktu" ? time : checkPrincipalAmount == "Arus listrik" ? electric_current : temperature)' 
+        [value]="metric"
           {{ metric.name }} 
         </ion-select-option>
       </ion-select>
+      
     </ion-item>
   </ion-card>
 
