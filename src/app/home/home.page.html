@@ -5,7 +5,7 @@
       <ion-title>
         Metric Converter
       </ion-title>
-      <ion-label> <br> <br> <br> by: Holly Lapian</ion-label>
+      <ion-label> <br> <br> by: Holly Lapian</ion-label>
     </ion-toolbar>
   </ion-header>
   
@@ -36,10 +36,10 @@
         <ion-select-option 
         *ngFor='let metric of (checkPrincipalAmount == "Panjang" ? lengths : checkPrincipalAmount == "Massa" ? mass : checkPrincipalAmount == "Waktu" ? time : checkPrincipalAmount == "Arus listrik" ? electric_current : temperature)' 
         [value]="metric"
+        > 
           {{ metric.name }} 
         </ion-select-option>
       </ion-select>
-      
     </ion-item>
   </ion-card>
 
