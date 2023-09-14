@@ -1,6 +1,8 @@
 # MetricConverter-Holly-IONIC
 
-![Uploading Metric Converter App (1).gif…]()
+
+![Metric Converter App](https://github.com/holypraisy/MetricConverter-Holly-IONIC/assets/132434400/c4569218-dff5-4308-9e45-0c515a81caf6)
+
 
 
 
