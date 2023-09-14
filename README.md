@@ -1,5 +1,5 @@
 # MetricConverter-Holly-IONIC
-![Uploading Metric Converter App.gif…]()
+Metric Converter App.gif
 
 
 
